@@ -1,0 +1,9 @@
+<article class="post">
+  <header class="post-header">
+    <h2 class="post-title">{{ title }}</h2>
+    <time class="post-date" datetime="{{ date | dateIso }}">{{ date | dateReadable }}</time>
+  </header>
+  <div class="post-content">
+    {{ content | safe }}
+  </div>
+</article>

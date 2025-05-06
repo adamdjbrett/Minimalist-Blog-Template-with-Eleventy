@@ -1,0 +1,70 @@
+/* System font stack for body text */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+  }
+  
+  /* Arial Black for all headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-weight: normal;
+  }
+  
+  .site-title {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  .site-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .site-nav a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .site-nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .post-title {
+    margin-bottom: 0.5rem;
+  }
+  
+  .post-date {
+    display: block;
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  
+  .site-footer {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .post-excerpt {
+    margin-bottom: 2rem;
+  }
+  
+  .post-excerpt h3 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .post-excerpt time {
+    display: block;
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
